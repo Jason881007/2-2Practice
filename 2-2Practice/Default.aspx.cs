@@ -11,7 +11,7 @@ namespace _2_2Practice {
         protected void Page_Load(object sender, EventArgs e) {
             Random n = new Random();
 
-            int num = n.Next(1, 10000)
+            int num = n.Next(1, 10000);
             bool a = false;
 
             if (num % 4 == 0)
